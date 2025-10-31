@@ -1,0 +1,88 @@
+---
+title: "ANÁLISIS ESTADISTICO DEL ABONO DE PORCINAZA Y DENSIDADES OBTIMAS DE SIEMBRA SOBRE EL RENDIMIENTO DE MAÍZ MORADO (Zea mays L.) var. INIA-601."
+author: Tomada de Zagaceta Llanca (2023)
+format:
+  html:
+    toc: true
+    toc-expand: true
+    toc-depth: 4
+    toc-location: left
+    number-sections: true
+    self-contained: true
+    code-fold: true
+    output-file: "ESM"
+editor_options: 
+  chunk_output_type: console
+execute: 
+  warning: false
+  message: false
+  echo: true
+---
+
+![](https://aula.untrm.edu.pe/pluginfile.php/1/theme_moove/logo/1649453146/Sin%20t%C3%ADtulo-1.png){width=90% align="center"} 
+
+
+# INTEGRANTES G1
+
+1. Colunche Vasquez Josue Jhonatan 
+2. Huaman Rimarachin Milver
+3. Maicelo Villanueva Luis Miguel
+4. Rivera Jimenez Yanet
+5. Vasquez Barboza Erik Percy
+6. Villa Tochon Jorge Luis<
+
+# INTRODUCCIÓN
+
+El maíz morado es un cultivo de relevancia económica y nutricional en el Perú. Sin embargo, su rendimiento depende de factores agronómicos como la densidad de siembra y el manejo de la fertilización orgánica.En este contexto, la porcinaza constituye una alternativa sostenible que puede mejorar la productividad y la salud del suelo (Nolasco-Bernardo,2022).
+A través de herramientas estadísticas y gráficas en R Studio, se busca reproducir el análisis de varianza (ANOVA), la comparación de medias y la visualización de los resultados, verificando la consistencia con los hallazgos reportados en la investigación original.
+El presente trabajo tomado de Zagaceta Llanca (2023) el cual tuvo como finalidad analizar estadísticamente los datos experimentales provenientes del estudio “Niveles de porcinaza y densidades de siembra sobre el rendimiento de maíz morado (Zea mays L.) var. INIA-601 en Lámud”, en base a ello se tomo tomo tres variables a evaluar buscando contrastar los resultados originales de la tesis con los obtenidos mediante el procesamiento en R Studio.
+
+# OBJETIVOS
+
+## General
+
+Analizar y comparar las variables de rendimiento granos por hectarea, altura de planta a los 30 y 180 días y el numero de mazorcas por planta con los resultados obtenidos de la tesis tomada, con los generados mediante el procesamiento estadístico en R Studio, evaluando los efectos de los niveles de porcinaza y las densidades de siembra sobre el rendimiento del maíz morado.
+
+# Estructura para el desarrollo del trabajo
+
+1.Organizar los datos experimentales en una base de datos estructurada en formato CSV o Google Sheets.
+
+2.Importar y verificar correctamente los factores experimentales en R Studio (porcinaza, densidad y bloque).
+
+3.Realizar el análisis de varianza (ANOVA) para cada variable evaluada.
+
+4.Efectuar la comparación de medias mediante la prueba de Tukey.
+
+5.Representar los resultados de manera gráfica para visualizar las diferencias entre tratamientos.
+
+6.Contrastar los resultados obtenidos con los reportados en la tesis original.
+
+# DESARROLLO
+
+## Recolección y organización de datos
+
+Los datos experimentales fueron recolectados del anexo de la tesis y organizados en una hoja de calculo google sheet el cual contiene los factores y variables evaluadas:
+
+### Factores
+- Nivel de porcinaza (0, 160, 320 y 480 g/planta) 
+- Densidad de siembra (0.8×0.4 m y 0.8×0.5 m).
+
+### Bloques: 4 repeticiones.
+
+### Variables
+- Altura de planta
+- Número de mazorcas por planta
+- Longitud, diámetro y peso de mazorca
+- Altura de inserción de mazorca
+- Número de mazorcas por hectárea 
+- Rendimiento de grano por hectárea.
+
+### Variables tomadas para la evaluación 
+- Rendimiento granos por hectarea
+- Altura de planta a los 30 y 180 días
+- Numero de mazorcas por planta
+
+
+
+
+
